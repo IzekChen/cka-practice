@@ -7,7 +7,8 @@ CKA 준비자료
 ### Ubuntu
 
 ```
-sudo apt install -y docker.io
+sudo apt update
+sudo apt-get install docker.io
 
 cat << EOF > /etc/docker/daemon.json
 {
