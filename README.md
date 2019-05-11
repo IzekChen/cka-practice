@@ -4,6 +4,14 @@ CKA 준비자료
 
 ## Raw Kubernetes Install
 
+if you are using aws ubuntu, try to change root password and switch to root.
+It will avoid lots of permission issue in the tutorial
+
+```
+sudo passwd root
+su root
+```
+
 ### Ubuntu
 
 ```
